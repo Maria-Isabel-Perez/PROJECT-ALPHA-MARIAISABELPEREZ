@@ -868,7 +868,6 @@ button, .button-portfolio {
     margin-top: 50px;
     width: 100%;
     height: auto;
-    padding: 0 5% 0 5%;
     }
 
 .contactemailfooter{
@@ -886,6 +885,7 @@ display: flex;
 
 .logofooter img{
     width: 300px;
+    margin-left: 20px;
 }
 
 .footer p{
@@ -902,6 +902,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     height: 80%;
+    margin-right: 50px;
 }
 
 }
