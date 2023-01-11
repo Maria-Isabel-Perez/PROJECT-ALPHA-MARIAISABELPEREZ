@@ -5,6 +5,9 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 
 
+
+ /* GENERAL */
+
 *{
  box-sizing: border-box;
 }
@@ -39,7 +42,10 @@ span {
     background-color: #12F4F8;
 }
 
-@media only screen 
+
+/* MOBILE */
+
+@media only screen
   and (min-device-width: 280px) 
   and (max-device-width: 700px)
   and (-webkit-min-device-pixel-ratio: 1)
@@ -220,12 +226,11 @@ button, .button-portfolio {
     align-items: center;
     justify-content: center;
     margin-top: 30px;
+    width: 100%;
     }
 
-.contactemailfooter{
-    align-items: center;
-    width: 50px;
-    justify-content: center;
+div .contactemailfooter{
+    width: 30%;
     margin-bottom: 10%;
     margin-top: 0;
 }
@@ -240,8 +245,15 @@ margin-top: 10%;
     color: #F9ECD7;
 }
 
-}
+#contactfooterdesktop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
+}
+}
+/* TABLET */
 
 @media only screen 
   and (min-device-width: 700px) 
@@ -656,7 +668,7 @@ button, .button-portfolio {
 
 .contactemailfooter{
     align-items: center;
-    width: 50px;
+    width: 40%;
     justify-content: center;
     margin-bottom: 10%;
     margin-top: 0;
@@ -868,6 +880,7 @@ button, .button-portfolio {
     margin-top: 50px;
     width: 100%;
     height: auto;
+    padding: 0 5% 0 5%;
     }
 
 .contactemailfooter{
@@ -885,7 +898,6 @@ display: flex;
 
 .logofooter img{
     width: 300px;
-    margin-left: 20px;
 }
 
 .footer p{
@@ -902,7 +914,6 @@ display: flex;
     display: flex;
     flex-direction: column;
     height: 80%;
-    margin-right: 50px;
 }
 
 }
