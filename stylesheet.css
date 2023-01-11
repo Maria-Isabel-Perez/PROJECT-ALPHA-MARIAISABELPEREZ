@@ -848,8 +848,8 @@ width: 100%;
 }
 
 .myworkimages img{
-    width: 100%;
-    padding: 2%;
+ padding: 2%;
+ width: 100%;
 }
 
 button, .button-portfolio {
