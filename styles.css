@@ -21,7 +21,7 @@ body {
 
 main {
     min-width: 280px;
-    width: 60vw;
+    width: 80vw;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -62,4 +62,74 @@ header img {
 
 .contacto-header:hover{
     background-color: #E69EEC;
+}
+
+h1{
+    font-family: 'kage';
+    font-weight: lighter;
+    color: #231E1A;
+    text-align: center;
+}
+
+#estrella--aboutme{
+    width: 20px;
+}
+
+p{
+    font-family: 'poppins';
+    color: #231E1A;
+}
+
+.focuses-text p{
+    font-family: 'kage';
+    color:#231E1A;
+    font-weight: lighter;
+}
+
+span {
+    height: 1rem;
+}
+
+#spanrosa{
+    background-color: #E69EEC;
+}
+
+#spanazul{
+    background-color: #12F4F8;
+}
+
+h3{
+    font-family: 'poppins';
+    color: #231E1A;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.focuses {
+    background-color: #E69EEC;
+    border-top: 2px solid #231E1A ;
+    border-bottom: 2px solid #231E1A ;
+    padding: 20%;
+}
+
+@media only screen and (min-device-width: 280px) {
+
+    .about-me {
+        margin: 10% 5% 5% 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    .about-me p{
+        font-size: 14px;
+    }
+
+
 }
