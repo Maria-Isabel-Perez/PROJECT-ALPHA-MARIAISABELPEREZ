@@ -109,7 +109,6 @@ h3{
     background-color: #E69EEC;
     border-top: 2px solid #231E1A ;
     border-bottom: 2px solid #231E1A ;
-    padding: 5%;
     width: 100%;
     margin: 0%;
 }
@@ -167,6 +166,10 @@ footer {
 
     .about-me p{
         font-size: 14px;
+    }
+
+    .focuses{
+        padding: 5%;
     }
 
     .focuses-imgs{
@@ -235,8 +238,72 @@ footer {
 
 /* TABLET */
 
-@media only screen and (min-device-width: 280px){
+@media only screen and (min-device-width: 700px){
+
+    .about-me{
+        margin: 5%;
+        display: inline-block;
+    }
+
+    h1{
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .contenido-aboutme{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 30px;
+    }
+
+    .contenido-aboutme img{
+        width: 200px;
+    }
+
+    h3{
+    margin-right: 10%;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    }
+
+    .focuses-imgs{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .focuses-imgs img{
+        width: 70px;
+        height: 70px;
+    }
+    .focuses-text{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+    .focuses-text p{
+        font-size: 1.5rem;
+        margin: 20px 0 0 0;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    .focuses{
+        padding: 10%;
+    }
+
 
     
-
 }
+
