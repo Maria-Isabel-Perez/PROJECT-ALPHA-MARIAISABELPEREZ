@@ -17,16 +17,20 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    margin: 0;
+    overflow-x: hidden;
     }
 
 main{
 max-width: 1000px;
 min-width: 280px;
+width: 60%;
 height: 80%;
 display: flex;
 flex-direction: column;
 border: 2px solid #231E1A;
 margin: 5%;
+overflow-x: hidden;
 
 }
 
@@ -690,7 +694,6 @@ margin-top: 10%;
 @media only screen 
   and (min-device-width: 700px) 
   and (max-device-width: 3000px) 
-  and (-webkit-min-device-pixel-ratio: 1)
   {
 
 header { 
