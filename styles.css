@@ -109,8 +109,46 @@ h3{
     background-color: #E69EEC;
     border-top: 2px solid #231E1A ;
     border-bottom: 2px solid #231E1A ;
-    padding: 20%;
+    padding: 5%;
+    width: 100%;
+    margin: 0%;
 }
+
+.contenido-focuses{
+width: 100%;
+}
+
+h2{
+    font-family: 'kage';
+    font-weight: lighter;
+}
+
+button{
+    background-color: #F7E864;
+    border: 2px solid #231E1A;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #231E1A;
+    font-family: 'poppins';
+    font-weight: 600;
+}
+
+button:hover{
+    background-color: #231E1A;
+    color: #F9ECD7;
+}
+
+footer {
+    background-color: #231E1A;
+    margin-top: 50px;
+    padding:5%;
+    gap:10%;
+    display: flex;
+    width: 100%;
+}
+
+
+/* MOBILE */
 
 @media only screen and (min-device-width: 280px) {
 
@@ -131,5 +169,74 @@ h3{
         font-size: 14px;
     }
 
+    .focuses-imgs{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .focuses-imgs img{
+        width: 50px;
+        height: 50px;
+    }
+    .focuses-text{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    .focuses-text p{
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .mywork {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    h2{
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .myworkimages{
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+   button{
+    margin-top: 20px;
+   }
+
+   footer{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   footer .contactofooter{
+    width: 40px;
+    margin-top: 40px;
+   }
+
+}
+
+/* TABLET */
+
+@media only screen and (min-device-width: 280px){
+
+    
 
 }
