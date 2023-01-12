@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'kage';
+    src: url('kage.otf');}
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+ /* GENERAL */
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F9ECD7;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+main {
+    min-width: 280px;
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #231E1A;
+    margin: 5%;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #F7E864;
+    border-bottom: 2px solid #231E1A ;
+}
+
+header img {
+    width: 100px;
+    margin-left: 5%;
+}
+
+.contacto-header{
+    width: 20%;
+    background-color: #F9ECD7;
+    height: 100%;
+    border-left: 2px solid #231E1A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto-header img {
+    width: 30px;
+}
+
+.contacto-header:hover{
+    background-color: #E69EEC;
+}
