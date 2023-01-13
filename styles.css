@@ -319,7 +319,7 @@ footer {
         width: 100%;
         justify-content: center;
         margin-bottom: 20px;
-        padding: 0 5%;
+        padding: 0 20%;
     }
     
     .myworkimages img{
@@ -360,6 +360,7 @@ footer {
         margin-right: 25%;
         font-size: 1.5rem;
         line-height: 1.8rem;
+        margin-top: -10px;
     }
     
     .focuses{
